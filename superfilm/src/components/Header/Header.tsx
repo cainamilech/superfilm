@@ -10,20 +10,16 @@ const Header = () => {
         </figure>
 
         <ul>
-          <a href="">
-            <li>Quem Somos</li>
+          <a href="#servicos">
+            <li>Nossos serviços</li>
           </a>
 
           <a href="">
-            <li>Serviços</li>
+            <li>Dúvidas Frequentes</li>
           </a>
 
           <a href="">
-            <li>Dúvidas</li>
-          </a>
-
-          <a href="">
-            <li>Orçamento</li>
+            <li>Orçamentos</li>
           </a>
         </ul>
       </nav>
@@ -34,6 +30,8 @@ const Header = () => {
           prestação de serviços terceirizados para concessionárias e frotas de
           carros.
         </h2>
+
+        <a href="">Solicitar Orçamento</a>
       </div>
     </header>
   );

@@ -1,27 +1,60 @@
 main {
-  .banner {
+  padding: 40px 120px;
+
+  .resumo {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    justify-content: flex-start;
+    margin: 0 0 30px;
 
-    &__texts {
-      width: 50%;
-      margin: 220px 120px 0;
-
-      h1 {
-        color: white;
-        font-size: 54px;
-      }
-
-      h2 {
-        color: var(--orange);
-        text-transform: uppercase;
-      }
+    h3 {
+      color: var(--gray-200);
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+    span {
+      font-size: 40px;
+      font-weight: 600;
+    }
+    p {
+      color: var(--orange);
+      font-size: 30px;
     }
   }
 
-  .sessao {
-    height: 500px;
-    background-color: red;
+  .sobre {
+    display: flex;
+    gap: 20px;
+
+    &__texts {
+      width: 50%;
+      h3 {
+        color: var(--orange);
+        font-size: 28px;
+        margin-bottom: 10px;
+      }
+
+      h4 {
+        color: var(--gray-200);
+        margin-bottom: 10px;
+        font-weight: 500;
+      }
+
+      p {
+        margin-bottom: 20px;
+      }
+    }
+
+    figure {
+      width: 50%;
+      margin-top: 50px;
+
+      img {
+        border-radius: 20px;
+        border: 2px solid gray;
+        width: 100%;
+      }
+    }
   }
 }

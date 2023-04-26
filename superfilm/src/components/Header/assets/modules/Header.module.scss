@@ -1,5 +1,5 @@
 .header {
-  background-image: url("../imgs/pelicula.jpeg");
+  background-image: url("../imgs/pelicula-dark.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 70px;
@@ -32,12 +32,21 @@
     ul {
       display: flex;
       gap: 30px;
+
+      li {
+        padding: 5px 0;
+
+        &:hover {
+          border-bottom: 3px solid var(--orange);
+          padding-bottom: 2px;
+        }
+      }
     }
   }
 
   &__texts {
     width: 50%;
-    margin: 120px;
+    margin: 180px 120px 100px;
 
     h1 {
       color: white;
@@ -47,6 +56,21 @@
     h2 {
       color: var(--orange);
       text-transform: uppercase;
+    }
+
+    a {
+      display: block;
+      border: 1px solid whitesmoke;
+      width: max-content;
+      border-radius: 4px;
+      padding: 5px 10px;
+      margin-top: 10px;
+      font-size: 22px;
+
+      &:hover {
+        background-color: whitesmoke;
+        color: black;
+      }
     }
   }
 }
