@@ -3,6 +3,7 @@ import main from "./assets/modules/Main.module.scss";
 import moldagem from "./assets/imgs/supefilm-moldagem.jpeg";
 import instagram from "./assets/imgs/instagram.png";
 import { Contador } from "../Contador/Contador";
+import { Formulario } from "../Formulario/Formulario";
 
 const Main = () => {
   return (
@@ -79,10 +80,16 @@ const Main = () => {
         </div>
       </section>
 
+      <section id="orcamentos">
+        <Formulario />
+      </section>
+
       <section className={main["duvidas"]}>
         <div className={main["duvidas__container"]}>
           <h3>Dúvidas Frequentes</h3>
-          <h4>Quais os tipos recomendados de películas para colocar?</h4>
+          <h4 id="peliculas">
+            Quais os tipos recomendados de películas para colocar?
+          </h4>
           <p>
             Isso vai depender do propósito que está buscando, por isso vou
             listar algumas películas abaixo com suas principais características
