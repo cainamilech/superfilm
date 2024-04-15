@@ -14,8 +14,8 @@ const Header = () => {
             <li>Nossos serviços</li>
           </a>
 
-          <a href="">
-            <li>Dúvidas Frequentes</li>
+          <a href="#peliculas">
+            <li>Películas</li>
           </a>
 
           <a href="#orcamentos">
@@ -25,13 +25,15 @@ const Header = () => {
       </nav>
       <div className={header["header__texts"]}>
         <h1>PELÍCULAS PARA VIDROS</h1>
-        <h2>películas arquitetônicas residencial e comercial.</h2>
-        <h2>
+        <h2>películas arquitetônicas, residencial e comercial.</h2>
+        <h2 className={header["header__texts__terceiro"]}>
           prestação de serviços terceirizados para concessionárias e frotas de
           carros.
         </h2>
 
-        <a href="">Solicitar Orçamento</a>
+        <a href="https://wa.me/5548996802068" target="_blank" rel="noreferrer">
+          Solicitar Orçamento
+        </a>
       </div>
     </header>
   );

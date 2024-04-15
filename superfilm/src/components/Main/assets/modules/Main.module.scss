@@ -6,45 +6,75 @@ main {
     flex-direction: column;
     margin: 30px 0 0;
 
+    @media screen and (max-width: 1024px) {
+      margin-top: 20px;
+    }
+
     h3 {
       color: var(--gray-200);
       text-transform: uppercase;
       font-weight: 500;
+
+      @media screen and (max-width: 1024px) {
+        font-size: 18px;
+        text-align: center;
+      }
     }
     span {
       font-size: 40px;
       font-weight: 600;
+
+      @media screen and (max-width: 1024px) {
+        font-size: 24px;
+      }
     }
     p {
       color: var(--orange);
       font-size: 30px;
+      @media screen and (max-width: 1024px) {
+        font-size: 24px;
+      }
     }
     &__superfilm {
       display: flex;
       gap: 5px;
+
       img {
         width: 30px;
         height: 30px;
         margin-top: 3px;
+
+        @media screen and (max-width: 1024px) {
+          margin-top: 0;
+        }
       }
     }
   }
 
   .sobre {
     display: flex;
-    gap: 20px;
-    padding: 40px 120px;
+    gap: 30px;
+    padding: 20px 120px;
+
+    @media screen and (max-width: 1024px) {
+      padding: 16px;
+      flex-direction: column-reverse;
+    }
 
     &__texts {
       width: 50%;
+
+      @media screen and (max-width: 1024px) {
+        width: 100%;
+      }
       h3 {
-        color: var(--orange);
+        color: var(--gray-200);
         font-size: 28px;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
       }
 
       h4 {
-        color: var(--gray-200);
+        color: var(--orange);
         margin-bottom: 10px;
         font-weight: 500;
       }
@@ -56,26 +86,41 @@ main {
     }
 
     figure {
-      width: 50%;
+      width: 45%;
       margin-top: 50px;
 
-      img {
-        border-radius: 20px;
-        border: 2px solid gray;
+      @media screen and (max-width: 1024px) {
         width: 100%;
+        margin: 20px 0;
+        display: flex;
+        justify-content: center;
+      }
+
+      img {
+        border-radius: 30px;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
+        width: 100%;
+
+        @media screen and (max-width: 1024px) {
+          width: 85%;
+          margin: 0;
+        }
       }
     }
   }
 
   .duvidas {
-    background-color: var(--orange);
     padding: 40px 120px;
+    @media screen and (max-width: 1024px) {
+      padding: 16px;
+    }
 
     p {
       color: var(--black-100);
     }
 
     &__container {
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
       background-color: whitesmoke;
       border-radius: 18px;
       padding: 20px 16px;
@@ -86,10 +131,6 @@ main {
 
       h3 {
         color: var(--orange);
-      }
-
-      h4 {
-        color: var(--gray-200);
         font-size: 24px;
       }
 
@@ -105,12 +146,20 @@ main {
           gap: 20px;
           justify-content: center;
 
+          @media screen and (max-width: 1024px) {
+            flex-wrap: wrap;
+          }
+
           div {
             border-radius: 20px;
             padding: 10px 10px 14px;
             width: 30%;
             text-align: center;
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+            @media screen and (max-width: 1024px) {
+              width: 100%;
+            }
 
             p {
               font-size: 15px;

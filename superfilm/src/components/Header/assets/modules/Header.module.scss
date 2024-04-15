@@ -4,6 +4,10 @@
   background-size: cover;
   padding-bottom: 70px;
 
+  @media screen and (max-width: 1024px) {
+    background-image: url("../imgs/pelicula-dark-mobile.jpeg");
+  }
+
   nav {
     width: 100%;
     padding: 14px 120px;
@@ -13,11 +17,11 @@
     align-items: flex-end;
 
     @media screen and (max-width: 1024px) {
-      padding: 16px 40px;
+      padding: 16px;
     }
 
     @media screen and (max-width: 600px) {
-      justify-content: center;
+      /*justify-content: center;*/
     }
 
     figure {
@@ -26,12 +30,20 @@
 
       img {
         width: 180px;
+
+        @media screen and (max-width: 1024px) {
+          width: 140px;
+        }
       }
     }
 
     ul {
       display: flex;
       gap: 30px;
+
+      @media screen and (max-width: 1024px) {
+        display: none;
+      }
 
       li {
         padding: 5px 0;
@@ -48,14 +60,36 @@
     width: 50%;
     margin: 180px 120px 100px;
 
+    @media screen and (max-width: 1024px) {
+      margin: 70px 0 20px;
+      padding: 20px;
+      width: 100%;
+    }
+
     h1 {
       color: white;
       font-size: 54px;
+
+      @media screen and (max-width: 1024px) {
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+      }
     }
 
     h2 {
       color: var(--orange);
       text-transform: uppercase;
+
+      @media screen and (max-width: 1024px) {
+        font-size: 20px;
+      }
+    }
+
+    &__terceiro {
+      @media screen and (max-width: 1024px) {
+        display: none;
+      }
     }
 
     a {
@@ -70,6 +104,10 @@
       &:hover {
         background-color: whitesmoke;
         color: black;
+      }
+
+      @media screen and (max-width: 1024px) {
+        margin-top: 40px;
       }
     }
   }

@@ -3,7 +3,7 @@ import main from "./assets/modules/Main.module.scss";
 import moldagem from "./assets/imgs/supefilm-moldagem.jpeg";
 import instagram from "./assets/imgs/instagram.png";
 import { Contador } from "../Contador/Contador";
-import { Formulario } from "../Formulario/Formulario";
+import { Orcamento } from "../Orcamento/Orcamento";
 
 const Main = () => {
   return (
@@ -36,14 +36,16 @@ const Main = () => {
             </h4>
             <p>
               Se você está a procurando por uma empresa com um ótimo custo
-              benefício para fazer serviço de instalação de insulfilm, com uma
-              grande variedade de opções de películas para diversas finalidades,
-              como redução de calor, proteção de raios UV, privacidade e
-              segurança, podemos ser a solução, atuamos na região de
-              Florianópolis, e por sermos uma empresa sem endereço fixo,
-              conseguimos entregar um serviço com preço justo e com qualidade e
-              confiança garantida de quem está a mais de 11 anos no mercado.
-              Entre em contato e faça já um orçamento via WhatsApp!
+              benefício para fazer serviço de instalação de insulfilm em
+              Floripa, com uma grande variedade de opções de filme de controle
+              solar para diversas finalidades, como redução de calor, proteção
+              de raios UV, privacidade e segurança, podemos ser a solução,
+              atuamos na região de Florianópolis, e por sermos uma empresa sem
+              endereço físico, conseguimos entregar um serviço com preço justo e
+              com qualidade e confiança garantida de quem está a mais de 12 anos
+              no mercado. Preços especiais para peliculas na Lagoa da Conceição,
+              Barra da Lagoa, Itacorubi, Rio Tavares, Campeche, Santa Mônica e
+              toda região leste da Ilha de Florianópolis.
             </p>
 
             <h4>
@@ -60,10 +62,7 @@ const Main = () => {
               (Santa Fé), Toyota (Hai), entre outras na região de Florianopolis.
             </p>
 
-            <h4>
-              Instalação de película automotiva para frotas de carros, veículos
-              que foram comprados em lote.
-            </h4>
+            <h4>Instalação de película automotiva para frota de carros.</h4>
             <p>
               Outra opção são as frotas ou lotes de carros que muitas vezes são
               compradas como Venda Direta em uma concessionária, obviamente o
@@ -80,16 +79,11 @@ const Main = () => {
         </div>
       </section>
 
-      <section id="orcamentos">
-        <Formulario />
-      </section>
+      <Orcamento />
 
-      <section className={main["duvidas"]}>
+      <section id="peliculas" className={main["duvidas"]}>
         <div className={main["duvidas__container"]}>
-          <h3>Dúvidas Frequentes</h3>
-          <h4 id="peliculas">
-            Quais os tipos recomendados de películas para colocar?
-          </h4>
+          <h3>Quais os tipos recomendados de películas para colocar?</h3>
           <p>
             Isso vai depender do propósito que está buscando, por isso vou
             listar algumas películas abaixo com suas principais características
