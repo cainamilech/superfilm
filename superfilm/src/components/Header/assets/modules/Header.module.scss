@@ -6,6 +6,7 @@
 
   @media screen and (max-width: 1024px) {
     background-image: url("../imgs/pelicula-dark-mobile.jpeg");
+    height: 650px;
   }
 
   nav {
@@ -61,7 +62,7 @@
     margin: 180px 120px 100px;
 
     @media screen and (max-width: 1024px) {
-      margin: 70px 0 20px;
+      margin: 100px 0 20px;
       padding: 20px;
       width: 100%;
     }
@@ -107,7 +108,7 @@
       }
 
       @media screen and (max-width: 1024px) {
-        margin-top: 40px;
+        margin-top: 20px;
       }
     }
   }
