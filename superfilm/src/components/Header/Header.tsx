@@ -6,7 +6,9 @@ const Header = () => {
     <header className={header["header"]}>
       <nav>
         <figure>
-          <img src={superfilm} alt="logo superfilm" />
+          <a href="https://superfilmfloripa.com.br">
+            <img src={superfilm} alt="logo superfilm" />
+          </a>
         </figure>
 
         <ul>
