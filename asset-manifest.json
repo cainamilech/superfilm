@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b75e603d.css",
-    "main.js": "/static/js/main.e0149212.js",
+    "main.css": "/static/css/main.3370beb5.css",
+    "main.js": "/static/js/main.bb71e286.js",
     "static/js/787.ada76b27.chunk.js": "/static/js/787.ada76b27.chunk.js",
     "static/media/pelicula-dark.jpeg": "/static/media/pelicula-dark.7bffe2b604e7ab4bf04c.jpeg",
     "static/media/pelicula-dark-mobile.jpeg": "/static/media/pelicula-dark-mobile.210ae4f4df643d7fd25a.jpeg",
@@ -10,12 +10,12 @@
     "static/media/whatsapp.svg": "/static/media/whatsapp.b38ab38d5d2c2e18fbc527a3e470702c.svg",
     "static/media/arrow.svg": "/static/media/arrow.86e8426f86376423a1a55bed6eb038be.svg",
     "index.html": "/index.html",
-    "main.b75e603d.css.map": "/static/css/main.b75e603d.css.map",
-    "main.e0149212.js.map": "/static/js/main.e0149212.js.map",
+    "main.3370beb5.css.map": "/static/css/main.3370beb5.css.map",
+    "main.bb71e286.js.map": "/static/js/main.bb71e286.js.map",
     "787.ada76b27.chunk.js.map": "/static/js/787.ada76b27.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b75e603d.css",
-    "static/js/main.e0149212.js"
+    "static/css/main.3370beb5.css",
+    "static/js/main.bb71e286.js"
   ]
 }
