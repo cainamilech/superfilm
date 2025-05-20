@@ -26,9 +26,9 @@ const Header = () => {
         </ul>
       </nav>
       <div className={header["header__texts"]}>
-        <div className={header["header__texts__fechado"]}>
+        {/*<div className={header["header__texts__fechado"]}>
           TEMPORARIAMENTE FECHADO
-        </div>
+        </div>*/}
         <h1>PELÍCULAS PARA VIDROS</h1>
         <h2>películas arquitetônicas, residencial e comercial.</h2>
         <h2 className={header["header__texts__terceiro"]}>
