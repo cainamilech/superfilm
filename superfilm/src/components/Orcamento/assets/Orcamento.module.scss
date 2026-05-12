@@ -1,5 +1,6 @@
 .section {
-  background-color: var(--orange);
+  /*background-color: var(--orange);*/
+  background-color: var(--black-100);
   padding: 40px 120px;
 
   @media screen and (max-width: 1024px) {
@@ -8,7 +9,8 @@
 }
 
 .container {
-  background-color: white;
+  background-color: var(--black-200);
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +19,8 @@
   padding: 30px;
 
   p {
-    color: var(--black-100);
+    /*color: var(--black-100);*/
+    color: var(--white2);
   }
 
   &__textos {
@@ -28,6 +31,7 @@
     ul {
       margin: 20px;
       list-style: circle;
+      color: var(--white2);
     }
   }
 
@@ -39,6 +43,7 @@
 
   a {
     color: var(--orange);
+
   }
 
   &__links {
@@ -55,7 +60,8 @@
     }
 
     li {
-      color: var(--black-100);
+      /*color: var(--black-100);*/
+      color: var(--white2);
       display: flex;
       align-items: center;
       gap: 5px;

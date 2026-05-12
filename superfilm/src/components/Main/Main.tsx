@@ -21,10 +21,30 @@ const Main = () => {
             </a>
           </div>
           <h3>Instalação de películas em Florianópolis.</h3>
-          <p>
-            <span>+</span>
-            <Contador /> ANOS NO MERCADO
-          </p>
+          <div className={main["resumo__contadores"]}>
+            <div className={main["resumo__contadores__contador"]}>
+              <div>
+                <span>+</span>
+                <Contador end={14} />
+              </div>
+              <div>ANOS NO MERCADO</div>
+            </div>
+            <div className={main["resumo__contadores__contador"]}>
+              <div>
+                <span>+</span>
+                <Contador end={8000} />
+              </div>
+              <div>CARROS PROTEGIDOS</div>
+            </div>
+            <div className={main["resumo__contadores__contador"]}>
+              <div>
+                <span>+</span>
+                <Contador end={100} />
+              </div>
+              <div>PRÉDIOS PROTEGIDOS</div>
+            </div>
+
+          </div>
         </div>
 
         <div id="servicos" className={main["sobre"]}>
@@ -42,7 +62,7 @@ const Main = () => {
               de raios UV, privacidade e segurança, podemos ser a solução,
               atuamos na região de Florianópolis, e por sermos uma empresa sem
               endereço físico, conseguimos entregar um serviço com preço justo e
-              com qualidade e confiança garantida de quem está a mais de 12 anos
+              com qualidade e confiança garantida de quem está a mais de 14 anos
               no mercado. Preços especiais para peliculas na Lagoa da Conceição,
               Barra da Lagoa, Itacorubi, Rio Tavares, Campeche, Santa Mônica e
               toda região leste da Ilha de Florianópolis.
@@ -98,33 +118,25 @@ const Main = () => {
                 <p>
                   Essa é a película convencional mais utilizada no mercado tanto
                   para instalação automotiva quanto para arquitetura, pois ela
-                  garante uma boa duração de no mínimo 3 anos, e um bom
-                  desempenho para redução do calor, de em média 20%, além de
-                  proteger 99% dos raios UV.
+                  garante um bom
+                  desempenho para redução do calor, com bloqueio de 99% dos raios UV e em média 32% do IR. Além de garantir segurança e privacidade.
                 </p>
                 <p>
                   As transparências disponíveis para esse tipo de película são
                   variadas, começando pela mais escura até mais clara, 5%, 20%,
-                  35%, 50%, 70% e 75%. A mais utilizada para automoveis é a 20%
-                  e a 35%, porém para soluções em arquitetura, indicamos a mais
-                  escura, pois muitas vezes o cliente está querendo optar por
-                  privacidade e segurança.
+                  35%, 50% e 70%.
                 </p>
               </div>
               <div>
-                <h5>Película Tintada Fumê</h5>
-                <p>
-                  É uma película de linha convencional também para carros e
-                  arquitetura, porém é uma linha econômica, no qual o material
-                  não tem a mesma performance de uma película profissional, uma
-                  duração de 2 anos até começar a desbotar, a redução de calor é
-                  baixa, porém a proteção de raios UV também é de 99%.
+                <h5>Película Nano Cerâmica</h5>
+                <p>A película nano cerâmica é uma linha premium para carros e arquitetura,
+                  desenvolvida para oferecer alta performance térmica em todas as transparências, até na transparente.
+                  Sua tecnologia avançada proporciona excelente rejeição de calor,
+                  bloqueio de até 99% dos raios UV e até 92% do IR, principal gerador de calor.
                 </p>
                 <p>
-                  Também disponível em todas transparências, como a
-                  profissional. Essa película é recomendada para casos em que o
-                  cliente quer economizar, ou para casos de apenas privacidade,
-                  onde a proteção do calor não é o principal propósito.
+                  Garante
+                  maior conforto térmico no ambiente, é recomendada para clientes que buscam máxima proteção contra calor, preservação de móveis e produtos contra desbotamento, além de maior eficiência do ar-condicionado e conforto no dia a dia.
                 </p>
               </div>
               <div>
@@ -132,8 +144,8 @@ const Main = () => {
                 <p>
                   Também conhecida como película metalizada, apresenta uma
                   aparência espelhada parcial, dando um pouco de brilho ao
-                  vidro, essa é uma película com uma duração e proteção maior
-                  que a profissional convencional.
+                  vidro, essa é uma película com uma proteção térmica maior
+                  que a linha profissional fumê.
                 </p>
                 <p>Disponível nas transparências 5%, 20% e 35%.</p>
               </div>
