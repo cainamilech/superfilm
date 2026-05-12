@@ -30,7 +30,7 @@ const Header = () => {
           TEMPORARIAMENTE FECHADO
         </div>*/}
         <h1>PELÍCULAS PARA VIDROS</h1>
-        <h2>películas arquitetônicas, residencial e comercial.</h2>
+        <h2 className={header["header__texts__segundo"]}>películas arquitetônicas, residencial e comercial.</h2>
         <h2 className={header["header__texts__terceiro"]}>
           películas automotivas terceirizadas para lojas e concessionárias.
         </h2>

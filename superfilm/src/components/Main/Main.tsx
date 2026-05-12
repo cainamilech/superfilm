@@ -1,6 +1,7 @@
 import main from "./assets/modules/Main.module.scss";
 
 import moldagem from "./assets/imgs/supefilm-moldagem.jpeg";
+import ppf from "./assets/imgs/ppf_multimidia_macaneta.png"
 import instagram from "./assets/imgs/instagram.png";
 import { Contador } from "../Contador/Contador";
 import { Orcamento } from "../Orcamento/Orcamento";
@@ -93,9 +94,33 @@ const Main = () => {
               carros.
             </p>
           </div>
-          <figure>
+          <figure className={main["sobre__pelicula"]}>
             <img src={moldagem} alt="aplicando pelicula" />
           </figure>
+        </div>
+
+        <div className={main["sobre"]}>
+          <figure className={main["sobre__ppf"]}>
+            <img src={ppf} alt="ppf maçaneta e multimidia" />
+          </figure>
+          <div className={main["sobre__texts"]}>
+
+            <h4>
+              PPF (Paint Protection Film)
+            </h4>
+            <p>
+              Película de proteção transparente desenvolvida para preservar a pintura e superfícies do veículo contra riscos, arranhões, marcas de uso e pequenos impactos do dia a dia.
+            </p>
+            <p>Aplicamos PPF em áreas mais vulneráveis e de alto contato, aumentando a durabilidade e mantendo o aspecto original do carro por muito mais tempo.
+
+            </p>
+            <p>Também realizamos aplicação em multimídias e acabamentos internos, conchas de maçaneta, quinas de porta,
+              para-choques e faróis, protegendo contra riscos, desgaste e marcas causadas pelo uso constante.</p>
+
+
+
+          </div>
+
         </div>
       </section>
 

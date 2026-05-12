@@ -129,9 +129,33 @@ main {
       }
     }
 
-    figure {
+    &__pelicula {
       width: 45%;
       margin-top: 50px;
+
+      @media screen and (max-width: 1024px) {
+        width: 100%;
+        margin: 20px 0;
+        display: flex;
+        justify-content: center;
+      }
+
+      img {
+        filter: brightness(75%);
+        border-radius: 30px;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
+        width: 100%;
+
+        @media screen and (max-width: 1024px) {
+          width: 95%;
+          margin: 0;
+        }
+      }
+    }
+
+    &__ppf {
+      width: 32%;
+      margin-top: 0px;
 
       @media screen and (max-width: 1024px) {
         width: 100%;
@@ -151,6 +175,10 @@ main {
         }
       }
     }
+
+
+
+
   }
 
   .duvidas {

@@ -64,7 +64,7 @@ main {}
     margin: 180px 120px 100px;
 
     @media screen and (max-width: 1024px) {
-      margin: 100px 0 20px;
+      margin: 75px 0 20px;
       padding: 20px;
       width: 100%;
     }
@@ -84,12 +84,12 @@ main {}
 
       @media screen and (max-width: 1024px) {
         font-size: 30px;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
         margin-top: 20px;
       }
     }
 
-    h2 {
+    &__segundo {
       color: var(--orange);
       text-transform: uppercase;
 
@@ -99,8 +99,12 @@ main {}
     }
 
     &__terceiro {
+      color: var(--orange);
+      text-transform: uppercase;
+
       @media screen and (max-width: 1024px) {
-        display: none;
+        margin-top: 10px;
+        font-size: 13px;
       }
     }
 
