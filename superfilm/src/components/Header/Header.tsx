@@ -1,5 +1,7 @@
 import header from "./assets/modules/Header.module.scss";
 import superfilm from "./assets/imgs/superfilm-logo.png";
+import cartao from "./assets/imgs/cartao.webp"
+import local from "./assets/imgs/local.png"
 
 const Header = () => {
   return (
@@ -30,14 +32,33 @@ const Header = () => {
           TEMPORARIAMENTE FECHADO
         </div>*/}
         <h1>PELÍCULAS PARA VIDROS</h1>
-        <h2 className={header["header__texts__segundo"]}>películas arquitetônicas, residencial e comercial.</h2>
+        <h2 className={header["header__texts__segundo"]}>películas automotivas e prediais</h2>
         <h2 className={header["header__texts__terceiro"]}>
-          películas automotivas terceirizadas para lojas e concessionárias.
+          PPF e Envelopamento
         </h2>
 
         <a href="https://wa.me/5548996802068" target="_blank" rel="noreferrer">
           Solicitar Orçamento
         </a>
+
+        <div className={header["header__texts__cartaolocal"]}>
+
+          <div className={header["header__texts__cartaolocal__cartao"]}>
+            <figure>
+
+              <img src={cartao} alt="icone cartão" />
+
+            </figure>Parcelamos em até <strong>6X</strong> SEM JUROS
+          </div>
+
+          <div className={header["header__texts__cartaolocal__local"]}>
+            <figure>
+
+              <img src={local} alt="icone localização" />
+
+            </figure>Anexo ao Estação Santa Mônica
+          </div>
+        </div>
       </div>
     </header>
   );

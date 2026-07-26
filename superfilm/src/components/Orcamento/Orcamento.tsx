@@ -9,41 +9,14 @@ const Orcamento = () => {
   return (
     <section className={orcamento["section"]} id="orcamentos">
       <div className={orcamento["container"]}>
-        <h3>Orçamentos gratuítos para instalação de película</h3>
+        <h3>Informações de contato e como chegar na nossa loja:</h3>
 
         <div className={orcamento["container__textos"]}>
-          <p>
-            Entre em contato conosco e faça um orçamento para colocação de
-            película em sua casa ou estabelecimento, para que possamos fazer uma
-            avaliação dos custos do serviço, pedimos que envie:
+          <p>Entre em contato conosco e faça um orçamento sem compromisso,
+            para colocação de
+            película em seu veículo, casa ou estabelecimento:
           </p>
-          <ul>
-            <li>Endereço onde será feito o serviço</li>
 
-            <li>Foto dos vidros/ambiente.</li>
-
-            <li>Quantidade de vidros e suas medidas.</li>
-
-            <li>
-              Os vidros ficam em altura de até 2 metros do chão? Para avaliar se
-              precisará de escada ou andaimes.
-            </li>
-            <li>
-              Qual o tipo de película que deseja.
-              <a href="#peliculas"> Logo abaixo</a> veja as principais
-              características e finalidades de cada uma.
-            </li>
-          </ul>
-
-          <p>
-            Se preferir, em casos de serviços mais complexos, com mais vidros,
-            podemos ir presencialmente fazer um orçamento, basta entrar em
-            contato passando o endereço.
-          </p>
-          <p>
-            Para orçamentos de serviço terceirizado para concessionárias e
-            outras lojas, basta entrar em contato.
-          </p>
         </div>
 
         <ul className={orcamento["container__links"]}>
@@ -54,7 +27,7 @@ const Orcamento = () => {
           >
             <li>
               <img src={whatsapp} alt="icone do whatsapp" />
-              Chamar no WhatsApp
+              WhatsApp (48) 99680-2068
             </li>
           </a>
 
@@ -74,6 +47,16 @@ const Orcamento = () => {
             superfilmfloripa@gmail.com
           </li>
         </ul>
+
+        <div className={orcamento["container__mapa"]}>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5000.833117863634!2d-48.49703861585817!3d-27.589715705584805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95273f381a2ccf7d%3A0x7d0f5a8ad8d2d1a!2sSuperfilm%20-%20Pel%C3%ADculas%20Residenciais!5e0!3m2!1spt-BR!2sbr!4v1784563957710!5m2!1spt-BR!2sbr"
+
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="strict-origin-when-cross-origin"
+          />
+        </div>
       </div>
     </section>
   );

@@ -1,6 +1,7 @@
 import main from "./assets/modules/Main.module.scss";
 
-import moldagem from "./assets/imgs/supefilm-moldagem.jpeg";
+import estacao from "./assets/imgs/estacao.jpg";
+import parabrisa from "./assets/imgs/superfilm-parabrisa.jpeg";
 import ppf from "./assets/imgs/ppf_multimidia_macaneta.png"
 import instagram from "./assets/imgs/instagram.png";
 import { Contador } from "../Contador/Contador";
@@ -12,7 +13,7 @@ const Main = () => {
       <section>
         <div className={main["resumo"]}>
           <div className={main["resumo__superfilm"]}>
-            <p>SUPERFILM FLORIPA</p>
+            <p>Superfilm Películas</p>
             <a
               href="https://www.instagram.com/superfilmfloripa/"
               target="_blank"
@@ -51,6 +52,11 @@ const Main = () => {
         <div id="servicos" className={main["sobre"]}>
           <div className={main["sobre__texts"]}>
             <h3>Nossos serviços</h3>
+            <h4>Aplicação de película (insulfilm) para carros.</h4>
+            <p>
+              Se você procura uma empresa especializada em instalação de película automotiva em Florianópolis, oferecemos películas de alta qualidade para proteção solar, redução de calor, com 99% de bloqueio dos raios UV, e até 94% de rejeição do IR, mais privacidade e conforto para o seu veículo. Trabalhamos com películas profissionais e de alta performance, como as linhas Nano Cerâmica e Nano Carbono, com garantia vitalícia e que garantem uma alta proteção térmica com ótima visibilidade de dentro para fora. Instalação realizada por quem está há mais de 14 anos no mercado.
+            </p>
+
             <h4>
               Películas de proteção solar em janelas e vidros para residências
               ou estabelecimentos comerciais.
@@ -58,13 +64,11 @@ const Main = () => {
             <p>
               Se você está a procurando por uma empresa com um ótimo custo
               benefício para fazer serviço de instalação de insulfilm em
-              Floripa, com uma grande variedade de opções de filme de controle
+              Floripa, com uma grande variedade de opções de window film de controle
               solar para diversas finalidades, como redução de calor, proteção
               de raios UV, privacidade e segurança, podemos ser a solução,
-              atuamos na região de Florianópolis, e por sermos uma empresa sem
-              endereço físico, conseguimos entregar um serviço com preço justo e
-              com qualidade e confiança garantida de quem está a mais de 14 anos
-              no mercado. Preços especiais para peliculas na Lagoa da Conceição,
+              atuamos na região de Florianópolis, entregamos serviço com preço justo, qualidade e confiança garantida de quem está há mais de 14 anos
+              no mercado. Condições especiais para peliculas na Lagoa da Conceição,
               Barra da Lagoa, Itacorubi, Rio Tavares, Campeche, Santa Mônica e
               toda região leste da Ilha de Florianópolis.
             </p>
@@ -83,19 +87,10 @@ const Main = () => {
               (Santa Fé), Toyota (Hai), entre outras na região de Florianopolis.
             </p>
 
-            <h4>Instalação de película automotiva para frota de carros.</h4>
-            <p>
-              Outra opção são as frotas ou lotes de carros que muitas vezes são
-              compradas como Venda Direta em uma concessionária, obviamente o
-              objetivo dessas compras em lote por alguma empresa de aluguel de
-              carros ou outras, são com objetivo de economia no valor final,
-              visando esse melhor custo benefício podemos fazer um orçamento
-              para o pacote fechado para instalação de película em vários
-              carros.
-            </p>
+
           </div>
           <figure className={main["sobre__pelicula"]}>
-            <img src={moldagem} alt="aplicando pelicula" />
+            <img src={parabrisa} alt="aplicando pelicula" />
           </figure>
         </div>
 
@@ -117,10 +112,42 @@ const Main = () => {
             <p>Também realizamos aplicação em multimídias e acabamentos internos, conchas de maçaneta, quinas de porta,
               para-choques e faróis, protegendo contra riscos, desgaste e marcas causadas pelo uso constante.</p>
 
-
+            <h4>
+              Envelopamento
+            </h4>
+            <p>Trabalhamos com envelopamento para personalização de diversas peças do veículo, como por exemplo: retrovisores, colunas, molduras, entre outras... Entre em contato com sua ideia para montarmos um orçamento.</p>
 
           </div>
 
+        </div>
+
+        <div className={main["localizacao"]}>
+
+          <div className={main["localizacao__texts"]}>
+
+            <h3>
+              Anexo ao Estação Santa Mônica
+            </h3>
+            <h4>Endereço:</h4>
+            <p>Rua Valter Mussi, 61 - Santa Monica, Florianópolis - SC</p>
+            <h4>Horário de Atendimento:</h4>
+
+            <p>Segunda á Sexta: 09h ás 18h <br />
+              Sábado: 09h ás 12h <small>
+                <br />(com horário agendado)</small></p>
+
+
+            <p>
+              Estamos localizados no subsolo do Estação Santa Mônica, se você preferir aguardar enquanto executamos o serviço no seu carro, poderá usufruir de um ambiente com diversas opções de gastronomia, lazer e espaço kids, ou até mesmo trabalhar remotamente, pois o ambiente oferece wi-fi.
+            </p>
+            <p>
+              O estacionamento fica gratuíto para nossos clientes.
+            </p>
+
+          </div>
+          <figure className={main["localizacao__local"]}>
+            <img src={estacao} alt="estação santa mônica" />
+          </figure>
         </div>
       </section>
 
@@ -130,47 +157,40 @@ const Main = () => {
         <div className={main["duvidas__container"]}>
           <h3>Quais os tipos recomendados de películas para colocar?</h3>
           <p>
-            Isso vai depender do propósito que está buscando, por isso vou
-            listar algumas películas abaixo com suas principais características
+            Vai depender do objetivo, abaixo está algumas películas com suas principais características
             e finalidades:
           </p>
 
           <div className={main["duvidas__container__opcoes"]}>
             <div className={main["duvidas__container__opcoes__cima"]}>
               <div>
-                <h5>Película Profissional Fumê</h5>
+                <h5>Película Profissional</h5>
 
                 <p>
-                  Essa é a película convencional mais utilizada no mercado tanto
+                  Essa é a película convencional fumê mais utilizada no mercado tanto
                   para instalação automotiva quanto para arquitetura, pois ela
                   garante um bom
-                  desempenho para redução do calor, com bloqueio de 99% dos raios UV e em média 32% do IR. Além de garantir segurança e privacidade.
+                  desempenho para redução do calor, com bloqueio de 99% dos raios UV prejudiciais á pele e rejeição de até 32% do IR, principal gerador de calor. Além de garantir segurança e privacidade.
                 </p>
                 <p>
-                  As transparências disponíveis para esse tipo de película são
-                  variadas, começando pela mais escura até mais clara, 5%, 20%,
-                  35%, 50% e 70%.
+                  Disponível em todas as transparências.
                 </p>
               </div>
               <div>
                 <h5>Película Nano Cerâmica</h5>
                 <p>A película nano cerâmica é uma linha premium para carros e arquitetura,
-                  desenvolvida para oferecer alta performance térmica em todas as transparências, até na transparente.
-                  Sua tecnologia avançada proporciona excelente rejeição de calor,
-                  bloqueio de até 99% dos raios UV e até 92% do IR, principal gerador de calor.
+                  desenvolvida para oferecer alta performance térmica em todas as transparências.
+                  Sua tecnologia avançada proporciona
+                  bloqueio de até 99% dos raios UV e até 92% do IR, principal gerador de calor. Nossa linha cerâmica oferece garantia vitalícia.
                 </p>
                 <p>
-                  Garante
-                  maior conforto térmico no ambiente, é recomendada para clientes que buscam máxima proteção contra calor, preservação de móveis e produtos contra desbotamento, além de maior eficiência do ar-condicionado e conforto no dia a dia.
+                  É recomendada para clientes que buscam máxima proteção contra calor, ótima visibilidade e preservação de móveis e produtos contra desbotamento, além de maior eficiência do ar-condicionado e conforto no dia a dia. Disponível em todas as transparências.
                 </p>
               </div>
               <div>
-                <h5>Película Semi Refletiva</h5>
-                <p>
-                  Também conhecida como película metalizada, apresenta uma
-                  aparência espelhada parcial, dando um pouco de brilho ao
-                  vidro, essa é uma película com uma proteção térmica maior
-                  que a linha profissional fumê.
+                <h5>Película Nano Carbono</h5>
+                <p>Películas de nanocarbono que proporcionam excelente conforto térmico, sua tecnologia com nano particulas de carbono na composição evita desbotamento e alteração de cor,
+                  bloqueio de até 99% dos raios UV e até 66% do IR, principal gerador de calor. Além de oferecer ótima visibilidade tanto de dia quanto a noite, nossa linha carbon oferece garantia vitalícia.
                 </p>
                 <p>Disponível nas transparências 5%, 20% e 35%.</p>
               </div>
@@ -178,19 +198,21 @@ const Main = () => {
 
             <div className={main["duvidas__container__opcoes__baixo"]}>
               <div>
-                <h5>Película Refletiva</h5>
+                <h5>Película Refletiva e Semi Refletiva</h5>
                 <p>
-                  Também conhecida como película espelhada, apresenta uma
-                  aparencia de espelho, contém uma duração de no mínimo 5 anos,
-                  além de uma alta performance no fator redução de calor,
-                  reduzindo em média 50% do calor, além de 99% de proteção
-                  contra raios UV.
-                </p>
-                <p>
-                  Essa película contém diversas cores disponíveis, embora o
+                  A refletiva, conhecida como película espelhada, apresenta uma
+                  aparência de espelho, oferece uma alta performance na redução de calor,
+                  com rejeição de até 92% do IR, além de 99% de bloqueio
+                  contra raios UV. Contém diversas cores disponíveis, embora o
                   prata seja o mais utilizada, há cores como azul, verde,
-                  vermelho, amarelo, entre outros. Porém as transparências
-                  disponíveis são apenas 5% e 15%.
+                  vermelho, amarelo, entre outros. Transparências
+                  disponíveis são 5% e 15%.
+                </p>
+                <p>A semi refletiva, conhecida como película metalizada, apresenta uma
+                  aparência espelhada parcial, dando um pouco de brilho ao
+                  vidro, sem deixar totalmente espelhado, tabmém contém alta proteção solar.</p>
+                <p>
+
                 </p>
               </div>
               <div>
@@ -206,7 +228,7 @@ const Main = () => {
                   propriedades causados pelos fragmentos.
                 </p>
                 <p>
-                  Disponíveis em diversas porcentagem e níveis de resistência.
+                  Disponíveis em diversas porcentagens.
                   Consultar disponibilidade.
                 </p>
               </div>
@@ -216,7 +238,7 @@ const Main = () => {
                   As películas decorativas apresentam diversos formatos e
                   estilos, porém a finalidade principal delas é estetica ou de
                   privacidade, temos como exemplo a película jateada (branca),
-                  que oferece privacidade sem reduzir a luz do ambiente.
+                  que oferece privacidade sem reduzir a luz do ambiente. Além de opções de adesivo vinil de diversas cores que podem ser aplicados em vidros.
                   Consultar disponibilidade.
                 </p>
               </div>
@@ -224,7 +246,7 @@ const Main = () => {
           </div>
         </div>
       </section>
-    </main>
+    </main >
   );
 };
 

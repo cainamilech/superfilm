@@ -18,6 +18,10 @@
   border-radius: 30px;
   padding: 30px;
 
+  @media screen and (max-width: 1024px) {
+    align-items: start;
+  }
+
   p {
     /*color: var(--black-100);*/
     color: var(--white2);
@@ -25,7 +29,7 @@
 
   &__textos {
     p {
-      margin-bottom: 5px;
+      margin-bottom: 1px;
     }
 
     ul {
@@ -38,7 +42,7 @@
   h3 {
     color: var(--orange);
     font-size: 26px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
   }
 
   a {
@@ -70,6 +74,30 @@
 
     img {
       width: 30px;
+    }
+  }
+
+  &__mapa {
+    display: flex;
+    padding: 15px;
+    width: 80%;
+
+    iframe {
+      margin-top: 30px;
+      border-radius: 10px;
+      width: 100%;
+      height: 450px;
+
+      @media screen and (max-width: 1024px) {
+
+        height: 250px;
+      }
+
+
+    }
+
+    @media screen and (max-width: 1024px) {
+      width: 100%;
     }
   }
 }

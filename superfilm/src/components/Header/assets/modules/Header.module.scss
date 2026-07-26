@@ -1,10 +1,8 @@
-main {}
-
 .header {
   background-image: url("../imgs/pelicula-dark.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 70px;
+  padding-bottom: 1px;
 
   @media screen and (max-width: 1024px) {
     background-image: url("../imgs/pelicula-dark-mobile.jpeg");
@@ -90,7 +88,7 @@ main {}
     }
 
     &__segundo {
-      color: var(--orange);
+      color: var(--gray-300);
       text-transform: uppercase;
 
       @media screen and (max-width: 1024px) {
@@ -99,12 +97,12 @@ main {}
     }
 
     &__terceiro {
-      color: var(--orange);
+      color: var(--gray-300);
       text-transform: uppercase;
 
       @media screen and (max-width: 1024px) {
-        margin-top: 10px;
-        font-size: 13px;
+        margin-top: 3px;
+        font-size: 18px;
       }
     }
 
@@ -125,6 +123,69 @@ main {}
       @media screen and (max-width: 1024px) {
         margin-top: 20px;
       }
+    }
+
+    &__cartaolocal {
+
+      display: block;
+      align-items: center;
+      margin-top: 70px;
+      gap: 10px;
+
+
+
+      &__cartao {
+
+        background-color: white;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        border-radius: 12px;
+        max-width: max-content;
+        padding: 0px 15px 0px 10px;
+        margin-bottom: 10px;
+
+        @media screen and (max-width: 1024px) {
+
+          justify-content: center;
+          padding: 0px 5px;
+          font-size: 16px;
+
+        }
+
+        img {
+          margin-right: 5px;
+          width: 40px;
+        }
+
+        strong {
+          margin: 5px;
+        }
+      }
+
+      &__local {
+        background-color: white;
+        max-width: max-content;
+        padding: 0px 15px 0px 10px;
+        border-radius: 12px;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+
+        @media screen and (max-width: 1024px) {
+
+          justify-content: center;
+          padding: 0px 5px;
+          font-size: 16px;
+
+        }
+
+        img {
+          margin-right: 8px;
+          width: 35px;
+        }
+      }
+
     }
   }
 }
