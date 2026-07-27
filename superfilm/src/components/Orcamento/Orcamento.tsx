@@ -9,7 +9,7 @@ const Orcamento = () => {
   return (
     <section className={orcamento["section"]} id="orcamentos">
       <div className={orcamento["container"]}>
-        <h3>Informações de contato e como chegar na nossa loja:</h3>
+        <h3>Contato:</h3>
 
         <div className={orcamento["container__textos"]}>
           <p>Entre em contato conosco e faça um orçamento sem compromisso,

@@ -31,8 +31,8 @@ const Header = () => {
         {/*<div className={header["header__texts__fechado"]}>
           TEMPORARIAMENTE FECHADO
         </div>*/}
-        <h1>PELÍCULAS PARA VIDROS</h1>
-        <h2 className={header["header__texts__segundo"]}>películas automotivas e prediais</h2>
+        <h1>PELÍCULAS AUTOMOTIVAS E PREDIAIS</h1>
+        {/*<h2 className={header["header__texts__segundo"]}>películas automotivas e prediais</h2>*/}
         <h2 className={header["header__texts__terceiro"]}>
           PPF e Envelopamento
         </h2>
